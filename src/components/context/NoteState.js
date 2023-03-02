@@ -5,7 +5,7 @@ import NoteContext from "./NoteContext";
 
 
 const NoteState = (props) => {
-    const host = 'http://localhost';
+    const host = 'https://patient-detail-api.onrender.com/';
     const intialState = [
         {
             title: "hello",

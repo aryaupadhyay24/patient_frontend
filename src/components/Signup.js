@@ -12,7 +12,7 @@ const Signup = () => {
         console.log("ruko dekhteh haiemail password sahi ai")
         // jaise hi submit pe click ho 
         // fetch se pata karo sahi hai login wale endpoint se
-        const response = await fetch('http://localhost/api/auth', {
+        const response = await fetch('https://patient-detail-api.onrender.com/auth', {
             method: 'POST',
             headers: {
 

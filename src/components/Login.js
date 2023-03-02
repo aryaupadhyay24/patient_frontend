@@ -13,7 +13,7 @@ const Login = (props) => {
         console.log("ruko dekhteh haiemail password sahi ai")
         // jaise hi submit pe click ho 
         // fetch se pata karo sahi hai login wale endpoint se
-        const response = await fetch('http://localhost/api/login', {
+        const response = await fetch('https://patient-detail-api.onrender.com/login', {
             method: 'POST',
             headers: {
 

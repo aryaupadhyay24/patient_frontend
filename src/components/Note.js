@@ -4,6 +4,7 @@ import Notecrud from './notecrud'
 import { useContext, useState } from 'react'
 import NoteContext from './context/NoteContext'
 import { useNavigate } from 'react-router-dom'
+import Spinner from './Spinner'
 
 
 const Note = () => {
@@ -126,7 +127,7 @@ const Note = () => {
 
 
 
-        {notes.length === 0 && "No notes to display"}
+        {notes.length === 0 && <Spinner/>}
         {notes&& notes.map(note => (
           
 
